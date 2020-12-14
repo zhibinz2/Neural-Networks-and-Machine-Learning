@@ -96,10 +96,12 @@ Figure 1: Sample Figure Caption
 The choice of number of components is a free parameter. The results of the principal component analysis are shown in Figure 2. The percentage accounted of the total variance for the 91 principal components were plotted. The first 10 to 20 principal components account for most variance. We used AIC to examine the model order. First 10 principal components were tested as shown in Figure 3.
 
 ![](figures/figure2.JPG)
+
 Figure 2. Result of Principle Component Analysis
 
 
 ![](figures/figure3.JPG)
+
 Figure 3. First 10 Principal Components
 
 
@@ -107,6 +109,7 @@ LDA was then done on the PCA data to find out the direction to separate the data
 
 
 ![](figures/figure4.JPG)
+
 Figure 4. Spatial Filter That Separate Awake And Drowsy State
 
 
@@ -114,6 +117,7 @@ The projected data (Figure 5.) is the coordinate of each sample in a new coordin
 
 
 ![](figures/figure5.JPG)
+
 Figure 5. The Projected Data
 (Awake group: 0-2580 epoch; Drowsy group: 2581-5160 epochs)
 
@@ -122,10 +126,12 @@ The sample average of the EEG power spectrum focusing the delta band to alpha ba
 
 
 ![](figures/figure6.JPG)
+
 Figure 6. Average power spectrum of the awake state and drowsy state
 
 
 ![](figures/figure7.JPG)
+
 Figure 7. The average increment of training accuracy and testing accuracy over each epoch in one training cycle of the Leave-One-Out cross validator (Training accuracy at epoch 60 reaches 99.69%; Testing accuracy at epoch 60 reaches 96.47%)
 
 
