@@ -156,19 +156,32 @@ A testing accuracy of 96.47% is satisfactory so far, as contemporary measurement
 
 
 ## Acknowledgments
+
 We thanks Professor Emre Neftci at the University of California, Irvine for his constructional advices for the implement of this convolutional neural network and for adopting the Leave-One-Out cross validator to make up for dataset sample volume. Special Thanks to the Department of Clinical Neurosciences, Division of Anaesthesia, and Department of Psychology at University of Cambridge for providing this data repository. Customized codes used in preprocessing the EEG data in this study come from previous work done under Professor Ramesh Srinivasan’s Human Neuroscience Lab at the University of California, Irvine. 
 
+
 ## References
+
 [1]	U. M. Illievich, W. Petricek, W. Schramm, M. Weindlmayr-Goettel, T. Czech, and C. K. Spiss, “Electroencephalographic burst suppression by propofol infusion in humans: hemodynamic consequences,” Anesth Analg, vol. 77, no. 1, pp. 155–160, Jul. 1993.
+
 [2]	H.-D. Yoon et al., “Low-dose propofol infusion for sedation during local anesthesia,” Plast Reconstr Surg, vol. 109, no. 3, pp. 956–963, Mar. 2002, doi: 10.1097/00006534-200203000-00023.
+
 [3]	A. Sonnenberg, “Sedation in Colonoscopy,” Gastroenterol Hepatol (N Y), vol. 12, no. 5, pp. 327–329, May 2016.
+
 [4]	K. Wang, M. L. Steyn-Ross, D. A. Steyn-Ross, M. T. Wilson, and J. W. Sleigh, “EEG slow-wave coherence changes in propofol-induced general anesthesia: experiment and theory,” Front Syst Neurosci, vol. 8, p. 215, 2014, doi: 10.3389/fnsys.2014.00215.
+
 [5]	J. D. Lendner et al., “An electrophysiological marker of arousal level in humans,” eLife, vol. 9, p. e55092, Jul. 2020, doi: 10.7554/eLife.55092.
+
 [6]	P. L. Purdon et al., “Electroencephalogram signatures of loss and recovery of consciousness from propofol,” PNAS, vol. 110, no. 12, pp. E1142–E1151, Mar. 2013, doi: 10.1073/pnas.1221180110.
+
 [7]	S. Chennu, S. O’Connor, R. Adapa, D. K. Menon, and T. A. Bekinschtein, “Brain Connectivity Dissociates Responsiveness from Drug Exposure during Propofol-Induced Transitions of Consciousness,” PLOS Computational Biology, vol. 12, no. 1, p. e1004669, Jan. 2016, doi: 10.1371/journal.pcbi.1004669.
+
 [8]	P.-K. Jao, R. Chavarriaga, and J. D. R. Millan, “Using Robust Principal Component Analysis to Reduce EEG Intra-Trial Variability,” Annu Int Conf IEEE Eng Med Biol Soc, vol. 2018, pp. 1956–1959, Jul. 2018, doi: 10.1109/EMBC.2018.8512687.
+
 [9]	R. Fu, Y. Tian, T. Bao, Z. Meng, and P. Shi, “Improvement Motor Imagery EEG Classification Based on Regularized Linear Discriminant Analysis,” J Med Syst, vol. 43, no. 6, p. 169, May 2019, doi: 10.1007/s10916-019-1270-0.
+
 [10]	R. Shalbaf, H. Behnam, and H. Jelveh Moghadam, “Monitoring depth of anesthesia using combination of EEG measure and hemodynamic variables,” Cogn Neurodyn, vol. 9, no. 1, pp. 41–51, Feb. 2015, doi: 10.1007/s11571-014-9295-z.
+
 
 
 
