@@ -88,16 +88,21 @@ Time-frequency and separation of the alpha band distribution
 
 A total of 2580 epochs (trials) from 12 subjects in both the awake (responsive) and the drowsy group (6 subjects in each state) were extracted. Alpha power matrices for each states were plotted against the 91 channels on heat maps as in Figure 1. More alpha power were seem in the awake (responsive) group, appearing across more channels. The alpha power were not evenly distributed. Significant spatial distribution difference were observed.
 
+
 ![](figures/figure1.JPG)
 
 Figure 1: Sample Figure Caption
 
 
+
 The choice of number of components is a free parameter. The results of the principal component analysis are shown in Figure 2. The percentage accounted of the total variance for the 91 principal components were plotted. The first 10 to 20 principal components account for most variance. We used AIC to examine the model order. First 10 principal components were tested as shown in Figure 3.
+
+
 
 ![](figures/figure2.JPG)
 
 Figure 2. Result of Principle Component Analysis
+
 
 
 ![](figures/figure3.JPG)
@@ -105,7 +110,9 @@ Figure 2. Result of Principle Component Analysis
 Figure 3. First 10 Principal Components
 
 
+
 LDA was then done on the PCA data to find out the direction to separate the data. The topo plot of the spatial filter (Figure 4.) shows how much weight to put on each electrode to rotate the alpha power matrices and get a new set of weighted average variables which best separate the alpha pattern.
+
 
 
 ![](figures/figure4.JPG)
@@ -113,7 +120,9 @@ LDA was then done on the PCA data to find out the direction to separate the data
 Figure 4. Spatial Filter That Separate Awake And Drowsy State
 
 
+
 The projected data (Figure 5.) is the coordinate of each sample in a new coordinate system.  It is a weighted average of the original data. The weights are given by the spatial filter. The spatial filter reduced the data into one dimension that best separate the two states as shown in Figure 4. The two conditions are significantly different with alpha power in the awake state mostly positive and the alpha power in the drowsy state mostly negative.
+
 
 
 ![](figures/figure5.JPG)
@@ -122,7 +131,9 @@ Figure 5. The Projected Data
 (Awake group: 0-2580 epoch; Drowsy group: 2581-5160 epochs)
 
 
+
 The sample average of the EEG power spectrum focusing the delta band to alpha band distribution in the awake states and drowsy states are shown in Figure 6. Each Leave-One-Out training and testing cycle consist of 60 epochs. The average increment of training accuracy and testing accuracy over each epoch in one training cycle of the convolutional neural network model are demonstrated in the Figure 7.
+
 
 
 ![](figures/figure6.JPG)
@@ -130,9 +141,11 @@ The sample average of the EEG power spectrum focusing the delta band to alpha ba
 Figure 6. Average power spectrum of the awake state and drowsy state
 
 
+
 ![](figures/figure7.JPG)
 
 Figure 7. The average increment of training accuracy and testing accuracy over each epoch in one training cycle of the Leave-One-Out cross validator (Training accuracy at epoch 60 reaches 99.69%; Testing accuracy at epoch 60 reaches 96.47%)
+
 
 
 ## 5	Discussion
