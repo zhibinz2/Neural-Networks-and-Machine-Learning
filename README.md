@@ -74,7 +74,7 @@ Using Principal Component analysis, the two alpha power matrices can be transfor
 
 Preparation of the training and testing dataset
 
-EEG power spectrum matrices were produced as the training and testing data samples using customized Matlab code in the Human Neuroscience Lab [Reference Here]. Frequencies higher than 12 Hz were removed from the power spectrums due to the lack of distinctive neural activities features. Features of the power spectrum in the delta range and alpha range were kept to be the main focus for machine learning. The training dataset consisted of 110 samples of matrices with the size of 12 by 91. The testing dataset contained 60 samples of such matrices. The data structure of the targets are vectors created with either one or zero. One for indicating the drowsy states. Zero for the awake states.
+EEG power spectrum matrices were produced as the training and testing data samples using customized Matlab code in the Human Neuroscience Lab [http://hnl.ss.uci.edu/]. Frequencies higher than 12 Hz were removed from the power spectrums due to the lack of distinctive neural activities features. Features of the power spectrum in the delta range and alpha range were kept to be the main focus for machine learning. The training dataset consisted of 110 samples of matrices with the size of 12 by 91. The testing dataset contained 60 samples of such matrices. The data structure of the targets are vectors created with either one or zero. One for indicating the drowsy states. Zero for the awake states.
 
 
 Implementation of the machine learning algorism
