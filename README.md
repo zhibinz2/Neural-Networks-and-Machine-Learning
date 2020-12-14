@@ -1,6 +1,6 @@
 # Neural-Networks-and-Machine-Learning
 
-## Detecting the state of drowsiness induced by drug sedation using machine learning algorism
+## Detecting the state of drowsiness induced by drug sedation using machine learning algorithm
 
 
 Zhibin Zhou
