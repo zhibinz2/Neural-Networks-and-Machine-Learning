@@ -157,7 +157,7 @@ A testing accuracy of 96.47% is satisfactory so far, as contemporary measurement
 
 ## Acknowledgments
 
-We thanks Professor Emre Neftci at the University of California, Irvine for his constructional advices for the implement of this convolutional neural network and for adopting the Leave-One-Out cross validator to make up for dataset sample volume. Special Thanks to the Department of Clinical Neurosciences, Division of Anaesthesia, and Department of Psychology at University of Cambridge for providing this data repository. Customized codes used in preprocessing the EEG data in this study come from previous work done under Professor Ramesh Srinivasan’s Human Neuroscience Lab at the University of California, Irvine. 
+We thank Professor Emre Neftci at the University of California, Irvine for his constructive advice on the implementation of this convolutional neural network and for adopting the Leave-One-Out cross validator to make up for dataset sample volume. Special Thanks to the Department of Clinical Neurosciences, Division of Anaesthesia, and Department of Psychology at University of Cambridge for providing this data repository. Customized codes used in preprocessing the EEG data in this study come from previous work done under Professor Ramesh Srinivasan’s Human Neuroscience Lab at the University of California, Irvine. 
 
 
 ## References
